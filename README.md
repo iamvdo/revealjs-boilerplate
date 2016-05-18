@@ -1,6 +1,17 @@
 ## iamvdo's RevealJS Boilerplate
 
-Changes from RevealJS:
+### Use
+
+```
+git clone https://github.com/iamvdo/revealjs-boilerplate
+cd revealjs-boilerplate
+npm i
+npm start
+```
+
+Open http://localhost:8000
+
+### Changes from RevealJS:
 
 - Add custom CSS theme in `css/theme/source/iamvdo.scss`
   - Specific fonts in `css/fonts`
@@ -45,7 +56,7 @@ CSS Pseudo-Components:
 - `.Point--plus`
 
 
-Atomic CSS:
+Pseudo-Atomic CSS:
 
 - `.u-aligncenter`
 - `.u-alignmiddle`
