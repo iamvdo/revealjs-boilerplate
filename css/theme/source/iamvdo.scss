@@ -479,38 +479,6 @@ $heading4Size: 1em;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*********************************************
  * OVERLAY
  *********************************************/
@@ -584,13 +552,6 @@ $heading4Size: 1em;
 }
 
 
-
-
-.reveal .section--title h2 {
-  color: #f03d36;
-}
-
-
 /*********************************************
  * SPECIFIC
  *********************************************/
@@ -616,16 +577,6 @@ $heading4Size: 1em;
   max-height: 300px;
 }
 
-/*********************************************
- * PARTS
- *********************************************/
-.vdoMenu li.part a {
-  background: #2980b9;
-}
-
-
-
-
 
 /*********************************************
  * PROGRESS BAR
@@ -649,12 +600,6 @@ $heading4Size: 1em;
   }
 }
 
-/*********************************************
- * SLIDE NUMBER
- *********************************************/
-.reveal .slide-number {
-  color: darkblue; }
-
 
 /*********************************************
  * FRAGMENT STYLES
@@ -675,55 +620,6 @@ $heading4Size: 1em;
           transform: scale(1);
 }
 
-
-/*********************************************
- * ZENBURN
- *********************************************/
-pre .dos .keyword,
-pre .python .decorator,
-pre .title,
-pre .haskell .type,
-pre .diff .header,
-pre .ruby .class .parent,
-pre .apache .tag,
-pre .nginx .built_in,
-pre .tex .command,
-pre .prompt,
-pre .attribute {
-    color: #f03d36;
-}
-pre .keyword,
-pre .tag,
-pre .css .class,
-pre .css .id,
-pre .lisp .title,
-pre .nginx .title,
-pre .request,
-pre .status,
-pre .clojure .attribute {
-  color: #000;
-}
-pre .diff .deletion,
-pre .string,
-pre .tag .value,
-pre .preprocessor,
-pre .built_in,
-pre .sql .aggregate,
-pre .javadoc,
-pre .smalltalk .class,
-pre .smalltalk .localvars,
-pre .smalltalk .array,
-pre .css .rules .value,
-pre .attr_selector,
-pre .pseudo,
-pre .apache .cbracket,
-pre .tex .formula {
-  color: black;
-}
-pre .number,
-pre .date {
-  color: black;
-}
 
 // Plugin CSS ------------------------------
 @import "../../../plugin/prismjs/prism.css";
