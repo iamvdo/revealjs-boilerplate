@@ -1,0 +1,45 @@
+.vdoMenu{
+	position: fixed;
+	top: 10px;
+	left: 0; right: 0;
+	height: 20px;
+	z-index: 500;
+	opacity: 0;
+	font: 1em sans-serif;
+}
+.vdoMenu:hover{
+	opacity: 1;
+}
+.vdoMenu ul{
+	margin: 0; padding: 0;
+}
+.vdoMenu ul li{
+	position: relative;
+	float: left;
+	list-style: none;
+	text-align: center;
+	font-size: 0.8em;
+}
+.vdoMenu ul li a{
+	display: block;
+	padding: 2px 0;
+	color: #fff;
+	text-decoration: none;
+	background: #f03d36;
+}
+.vdoMenu ul li a span{
+	display: none;
+	padding: 5px;
+	position: absolute;
+	background: rgba(0,0,0,.7);
+	color: white;
+	width: auto;
+	white-space: nowrap;
+}
+.vdoMenu ul li a span.sup {
+	right: 0;
+}
+.vdoMenu ul li a:hover span{
+	display: block;
+	z-index: 10;
+}
