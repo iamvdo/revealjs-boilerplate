@@ -391,16 +391,19 @@ body {
 .iamvdo.reveal .Showcase-text {
   color: #eee; }
 
-.iamvdo.reveal .Jumbo-title {
+.iamvdo.reveal .Jumbo {
   color: #f63752;
-  font-size: 2em;
-  font-family: Roboto Slab, serif;
+  font-family: Roboto Slab, serif; }
+
+.iamvdo.reveal .Jumbo-title {
+  font-size: 3em;
   margin: .5em 0;
   letter-spacing: -.05em;
   text-align: center; }
 
-.iamvdo.reveal .Jumbo-title--big {
-  font-size: 3em; }
+.iamvdo.reveal .Jumbo-text {
+  font-size: 1.6em;
+  text-align: center; }
 
 /*********************************************
  * OVERLAY

@@ -463,17 +463,19 @@ $heading4Size: 1em;
   .Showcase-text {
     color: #eee;
   }
-
-  .Jumbo-title {
+  .Jumbo {
     color: #f63752;
-    font-size: 2em;
     font-family: Roboto Slab, serif;
+  }
+  .Jumbo-title {
+    font-size: 3em;
     margin: .5em 0;
     letter-spacing: -.05em;
     text-align: center;
   }
-  .Jumbo-title--big {
-    font-size: 3em;
+  .Jumbo-text {
+    font-size: 1.6em;
+    text-align: center;
   }
 
 }
