@@ -19,8 +19,7 @@
  *********************************************/
 body {
   overflow-y: auto;
-  width: 100%;
-  width: calc(100% + 20px); }
+  width: 100%; }
 
 .reveal {
   box-sizing: border-box; }
