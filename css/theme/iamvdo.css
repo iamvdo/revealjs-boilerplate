@@ -4,8 +4,8 @@
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
-@import url(../../../plugin/prismjs/prism.css);
-@import url(../../../plugin/nav/nav.css);
+@import url(../../plugin/prismjs/prism.css);
+@import url(../../plugin/nav/nav.css);
 @font-face {
   font-family: Atipo Bold;
   src: url(../fonts/atipo6.woff); }
