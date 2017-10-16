@@ -195,6 +195,30 @@ body {
   font-size: 1.8rem;
   background: rgba(0, 0, 0, 0.5); }
 
+.iamvdo.reveal .Conseil {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2980b9;
+  color: #fff;
+  padding: 1em;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  border: 5px dashed white;
+  transform: rotate(0deg) scale(0.2);
+  opacity: 0;
+  transition: transform .3s; }
+
+.iamvdo.reveal .Conseil.visible {
+  opacity: 1;
+  transform: rotate(-5deg); }
+
+.iamvdo.reveal .Conseil p {
+  text-align: center; }
+
 /*********************************************
  * LINKS
  *********************************************/
@@ -240,6 +264,8 @@ body {
   left: 0;
   z-index: 10;
   margin: auto;
+  width: auto;
+  height: auto;
   box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.5), 0 50px 100px 50px rgba(0, 0, 0, 0.05); }
 
 .iamvdo.reveal img.visible {
